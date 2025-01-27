@@ -5,6 +5,6 @@ Migration command:
   -  When you run the migration command, you must set ExamCore.Database class library as the Startup project. 
 
 Example command:
-  dotnet ef migrations add InitDatabase --project ExamCore.Database -s ExamCore.Api -c DatabaseContext --verbose 
-  dotnet ef database update InitDatabase --project ExamCore.Database -s ExamCore.Api -c DatabaseContext --verbose
-  dotnet ef migrations remove --project ExamCore.Database -s ExamCore.Api -c DatabaseContext --verbose
+  -  dotnet ef migrations add InitDatabase --project ExamCore.Database -s ExamCore.Api -c DatabaseContext --verbose
+  -  dotnet ef database update InitDatabase --project ExamCore.Database -s ExamCore.Api -c DatabaseContext --verbose
+  -  dotnet ef migrations remove --project ExamCore.Database -s ExamCore.Api -c DatabaseContext --verbose
