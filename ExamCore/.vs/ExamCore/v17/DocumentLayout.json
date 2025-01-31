@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{179A8AAE-1A84-445C-A1A8-5FB88E1F8D64}|ExamCore.Api\\ExamCore.Api.csproj|solutionrelative:examcore.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D2084BE7-219F-4665-B445-FA26A155DBC7}|ExamCore.Model\\ExamCore.Model.csproj|d:\\new folder (2)\\dsl_exam_app_net_angular\\examcore\\examcore.model\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2084BE7-219F-4665-B445-FA26A155DBC7}|ExamCore.Model\\ExamCore.Model.csproj|solutionrelative:examcore.model\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9603BF06-03AB-4A99-84C6-3F29D251B929}|ExamCore.Repository\\ExamCore.Repository.csproj|d:\\new folder (2)\\dsl_exam_app_net_angular\\examcore\\examcore.repository\\contracts\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9603BF06-03AB-4A99-84C6-3F29D251B929}|ExamCore.Repository\\ExamCore.Repository.csproj|solutionrelative:examcore.repository\\contracts\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9603BF06-03AB-4A99-84C6-3F29D251B929}|ExamCore.Repository\\ExamCore.Repository.csproj|d:\\new folder (2)\\dsl_exam_app_net_angular\\examcore\\examcore.repository\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9603BF06-03AB-4A99-84C6-3F29D251B929}|ExamCore.Repository\\ExamCore.Repository.csproj|solutionrelative:examcore.repository\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2084BE7-219F-4665-B445-FA26A155DBC7}|ExamCore.Model\\ExamCore.Model.csproj|d:\\new folder (2)\\dsl_exam_app_net_angular\\examcore\\examcore.model\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2084BE7-219F-4665-B445-FA26A155DBC7}|ExamCore.Model\\ExamCore.Model.csproj|solutionrelative:examcore.model\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2084BE7-219F-4665-B445-FA26A155DBC7}|ExamCore.Model\\ExamCore.Model.csproj|d:\\new folder (2)\\dsl_exam_app_net_angular\\examcore\\examcore.model\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IEmployeeRepository.cs",
               "DocumentMoniker": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Repository\\Contracts\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "ExamCore.Repository\\Contracts\\IEmployeeRepository.cs",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Repository\\Repository\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "ExamCore.Repository\\Repository\\EmployeeRepository.cs",
@@ -78,15 +78,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Model\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "ExamCore.Model\\Models\\Employee.cs",
               "ToolTip": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Model\\Models\\Employee.cs",
               "RelativeToolTip": "ExamCore.Model\\Models\\Employee.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAcwCkAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAIA5wCkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T15:53:57.028Z"
+              "WhenOpened": "2025-01-31T15:53:57.028Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -120,7 +121,7 @@
               "RelativeDocumentMoniker": "ExamCore.Api\\Controllers\\EmployeeController.cs",
               "ToolTip": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Api\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "ExamCore.Api\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwDUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T15:51:34.542Z",
               "EditorCaption": ""
