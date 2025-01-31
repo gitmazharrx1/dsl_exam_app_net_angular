@@ -6117,23 +6117,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sunil\\.nuget\\packages\\": {},
+    "C:\\Users\\Enlight Solutions\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Exam Application\\ExamCore\\ExamCore.Application\\ExamCore.Application.csproj",
+      "projectUniqueName": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Application\\ExamCore.Application.csproj",
       "projectName": "ExamCore.Application",
-      "projectPath": "D:\\Exam Application\\ExamCore\\ExamCore.Application\\ExamCore.Application.csproj",
-      "packagesPath": "C:\\Users\\Sunil\\.nuget\\packages\\",
-      "outputPath": "D:\\Exam Application\\ExamCore\\ExamCore.Application\\obj\\",
+      "projectPath": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Application\\ExamCore.Application.csproj",
+      "packagesPath": "C:\\Users\\Enlight Solutions\\.nuget\\packages\\",
+      "outputPath": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Sunil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Enlight Solutions\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6148,8 +6148,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Exam Application\\ExamCore\\ExamCore.Manager\\ExamCore.Manager.csproj": {
-              "projectPath": "D:\\Exam Application\\ExamCore\\ExamCore.Manager\\ExamCore.Manager.csproj"
+            "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Manager\\ExamCore.Manager.csproj": {
+              "projectPath": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Manager\\ExamCore.Manager.csproj"
             }
           }
         }

@@ -1,6 +1,8 @@
 ﻿using System.Reflection;
 using ExamCore.Manager.Contracts;
 using ExamCore.Manager.Manager;
+using ExamCore.Model.Models;
+using ExamCore.Repository.Base;
 using ExamCore.Repository.Contracts;
 using ExamCore.Repository.Repository;
 using Microsoft.AspNetCore.Http;
@@ -28,7 +30,10 @@ namespace ExamCore.Application.Configurations
             #region Add Manager and Repository Services
             services.AddScoped<ICountryManager, CountryManager>();
             services.AddScoped<ICountryRepository, CountryRepository>();
-            
+            services.AddScoped<IEmployeeManager, EmployeeManager>();
+            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<IBaseRepository<Employee>, EmployeeRepository>();
+
             #endregion
 
             return services;

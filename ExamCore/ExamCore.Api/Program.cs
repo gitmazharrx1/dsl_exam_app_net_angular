@@ -1,5 +1,7 @@
 using ExamCore.Api.Extensions;
 using ExamCore.Application.Configurations;
+using ExamCore.Repository.Base;
+using ExamCore.Repository.Contracts;
 using ExamCore.Shared.Exceptions;
 using ExamCore.Shared.Models;
 

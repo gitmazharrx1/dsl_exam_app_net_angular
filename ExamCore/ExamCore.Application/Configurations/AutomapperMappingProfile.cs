@@ -1,5 +1,7 @@
 ﻿using System.Reflection;
 using AutoMapper;
+using ExamCore.Model.Dto;
+using ExamCore.Model.Models;
 using ExamCore.Shared.Mappings;
 
 namespace ExamCore.Application.Configurations
@@ -10,6 +12,10 @@ namespace ExamCore.Application.Configurations
         {
             // Add the mappings from all types that implement IMapFrom<T> interface
             ApplyMappingsFromAssembly(Assembly.GetExecutingAssembly());
+            CreateMap<Employee, EmployeeDto>()
+            .ForMember(c => c.CountryName, opt => opt.MapFrom(src => src.Country.Name));
+
+            CreateMap<EmployeeDto, Employee>();
         }
 
         private void ApplyMappingsFromAssembly(Assembly assembly)

@@ -26,3 +26,18 @@ D:\Exam Application\ExamCore\ExamCore.Shared\obj\Debug\net9.0\refint\ExamCore.Sh
 D:\Exam Application\ExamCore\ExamCore.Shared\obj\Debug\net9.0\ExamCore.Shared.pdb
 D:\Exam Application\ExamCore\ExamCore.Shared\obj\Debug\net9.0\ExamCore.Shared.genruntimeconfig.cache
 D:\Exam Application\ExamCore\ExamCore.Shared\obj\Debug\net9.0\ref\ExamCore.Shared.dll
+D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Shared\bin\Debug\net9.0\ExamCore.Shared.deps.json
+D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Shared\bin\Debug\net9.0\ExamCore.Shared.runtimeconfig.json
+D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Shared\bin\Debug\net9.0\ExamCore.Shared.dll
+D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Shared\bin\Debug\net9.0\ExamCore.Shared.pdb
+D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Shared\obj\Debug\net9.0\ExamCore.Shared.csproj.AssemblyReference.cache
+D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Shared\obj\Debug\net9.0\ExamCore.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Shared\obj\Debug\net9.0\ExamCore.Shared.AssemblyInfoInputs.cache
+D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Shared\obj\Debug\net9.0\ExamCore.Shared.AssemblyInfo.cs
+D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Shared\obj\Debug\net9.0\ExamCore.Shared.csproj.CoreCompileInputs.cache
+D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Shared\obj\Debug\net9.0\ExamCore.Shared.sourcelink.json
+D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Shared\obj\Debug\net9.0\ExamCore.Shared.dll
+D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Shared\obj\Debug\net9.0\refint\ExamCore.Shared.dll
+D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Shared\obj\Debug\net9.0\ExamCore.Shared.pdb
+D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Shared\obj\Debug\net9.0\ExamCore.Shared.genruntimeconfig.cache
+D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Shared\obj\Debug\net9.0\ref\ExamCore.Shared.dll
