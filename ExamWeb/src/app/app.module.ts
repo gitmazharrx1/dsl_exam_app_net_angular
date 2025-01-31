@@ -6,20 +6,24 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { EmployeeComponent } from './components/employee/employee.component';
 import { CountryListComponent } from './components/country-list/country-list.component';
 import { ToastrModule } from 'ngx-toastr';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { CountryCreateComponent } from './components/country-create/country-create.component';
 import { CountryUpdateComponent } from './components/country-update/country-update.component';
+import { EmployeeListComponent } from './components/employee/employee-list/employee-list.component';
+import { EmployeeCreateComponent } from './components/employee/employee-create/employee-create.component';
+import { EmployeeUpdateComponent } from './components/employee/employee-update/employee-update.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [
     AppComponent,
-    EmployeeComponent,
     CountryListComponent,
     CountryCreateComponent,
-    CountryUpdateComponent
+    CountryUpdateComponent,
+    EmployeeListComponent,
+    EmployeeCreateComponent,
+    EmployeeUpdateComponent
   ],
 
   imports: [

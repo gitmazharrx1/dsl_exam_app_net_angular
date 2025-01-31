@@ -1,0 +1,88 @@
+<div class="container mt-3">
+  <div class="row justify-content-center align-content-center">
+    <div class="col-md-6 col-sm-6 col-6">
+      <div class="card shadow-sm">
+        <div class="card-header">
+          <h5 class="text-center">Update Employee</h5>
+        </div>
+        <div class="card-body">
+          <form (ngSubmit)="updateEmployee()" [formGroup]="employeeForm">
+            <div class="form-group mb-3">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" formControlName="firstName" class="form-control" />
+              <div *ngIf="employeeForm.controls['firstName'].invalid && employeeForm.controls['firstName'].touched"
+                class="text-danger">
+                <small *ngIf="employeeForm.controls['firstName'].errors?.['required']">First name is required.</small>
+                <small *ngIf="employeeForm.controls['firstName'].errors?.['minlength']">First name must be at least 2
+                  characters long.</small>
+                <small *ngIf="employeeForm.controls['firstName'].errors?.['maxlength']">First name cannot be more than
+                  50
+                  characters long.</small>
+              </div>
+            </div>
+
+            <div class="form-group mb-3">
+              <label for="middleName">Middle Name</label>
+              <input type="text" id="middleName" formControlName="middleName" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" formControlName="lastName" class="form-control" />
+              <div *ngIf="employeeForm.controls['lastName'].invalid && employeeForm.controls['lastName'].touched"
+                class="text-danger">
+                <small *ngIf="employeeForm.controls['lastName'].errors?.['required']">Last name is required.</small>
+                <small *ngIf="employeeForm.controls['lastName'].errors?.['minlength']">Last name must be at least 2
+                  characters long.</small>
+                <small *ngIf="employeeForm.controls['lastName'].errors?.['maxlength']">Last name cannot be more than 50
+                  characters long.</small>
+              </div>
+            </div>
+
+            <div class="form-group mb-3">
+              <label for="phone">Phone</label>
+              <input type="text" id="phone" formControlName="phone" class="form-control" />
+              <small class="text-danger" *ngIf="employeeForm.controls['phone'].errors?.['required']">Phone Number is
+                required.</small>
+            </div>
+
+            <div class="form-group mb-3">
+              <label for="email">Email</label>
+              <input type="email" id="email" formControlName="email" class="form-control" />
+              <div *ngIf="employeeForm.controls['email'].invalid && employeeForm.controls['email'].touched"
+                class="text-danger">
+                <small *ngIf="employeeForm.controls['email'].errors?.['required']">Email is required.</small>
+                <small *ngIf="employeeForm.controls['email'].errors?.['email']">Invalid email format.</small>
+                <small *ngIf="employeeForm.controls['email'].errors?.['maxlength']">Email cannot be more than 100
+                  characters
+                  long.</small>
+              </div>
+            </div>
+
+            <div class="form-group mb-3">
+              <label for="country">Country</label>
+              <select formControlName="countryId" id="country" class="form-control">
+                <option *ngFor="let country of countries" [value]="country.id">
+                  {{ country.name }}
+                </option>
+              </select>
+              <div *ngIf="employeeForm.controls['countryId'].invalid && employeeForm.controls['countryId'].touched"
+                class="text-danger">
+                <small *ngIf="employeeForm.controls['countryId'].errors?.['required']">Country is required.</small>
+              </div>
+            </div>
+
+
+          </form>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-sm btn-outline-success" type="submit" (click)="updateEmployee()">Update</button>
+          <button class="btn btn-sm btn-outline-info ms-1" routerLink="/employees">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<ngx-spinner bdColor="rgba(0, 0, 0, 0.8)" size="medium" color="#fff" type="ball-spin" [fullScreen]="true">
+  <p style="color: white"> Loading... </p>
+</ngx-spinner>
