@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExamCore.Manager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56840e823d1127e9fae3c78daffb2a44e125d5fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd99f7c4376776bdd3440a772121e982a80ae963")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExamCore.Manager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExamCore.Manager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

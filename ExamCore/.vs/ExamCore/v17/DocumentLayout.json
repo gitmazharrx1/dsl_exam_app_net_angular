@@ -62,8 +62,7 @@
               "RelativeToolTip": "ExamCore.Repository\\Contracts\\IEmployeeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T15:54:42.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T15:54:42.205Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "ExamCore.Repository\\Repository\\EmployeeRepository.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T15:54:39.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T15:54:39.957Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "ExamCore.Model\\Models\\Employee.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAcwCkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T15:53:57.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T15:53:57.028Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "ExamCore.Model\\Dto\\EmployeeDto.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAcwCIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T15:53:40.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T15:53:40.886Z"
             },
             {
               "$type": "Document",
@@ -114,8 +110,7 @@
               "RelativeToolTip": "ExamCore.Manager\\Manager\\EmployeeManager.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowBMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T15:53:20.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T15:53:20.427Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "ExamCore.Manager\\Contracts\\IEmployeeManager.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T15:53:15.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T15:53:15.417Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "ExamCore.Application\\Configurations\\AutomapperMappingProfile.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T15:52:56.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T15:52:56.9Z"
             },
             {
               "$type": "Document",
@@ -166,8 +159,7 @@
               "RelativeToolTip": "ExamCore.Application\\Configurations\\ApplicationDependencyInjectionConfigurationService.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T15:52:49.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T15:52:49.518Z"
             },
             {
               "$type": "Document",
@@ -179,8 +171,7 @@
               "RelativeToolTip": "ExamCore.Api\\Program.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T15:52:30.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-31T15:52:30.159Z"
             }
           ]
         },

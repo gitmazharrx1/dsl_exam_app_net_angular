@@ -135,7 +135,7 @@
   },
   {
     "ContainingType": "ExamCore.Api.Controllers.EmployeeController",
-    "Method": "Add",
+    "Method": "AddEmployee",
     "RelativePath": "api/Employee",
     "HttpMethod": "POST",
     "IsController": true,
@@ -167,7 +167,7 @@
   },
   {
     "ContainingType": "ExamCore.Api.Controllers.EmployeeController",
-    "Method": "Update",
+    "Method": "UpdateEmployee",
     "RelativePath": "api/Employee/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -188,7 +188,7 @@
   },
   {
     "ContainingType": "ExamCore.Api.Controllers.EmployeeController",
-    "Method": "Delete",
+    "Method": "SoftDeleteEMaployee",
     "RelativePath": "api/Employee/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
