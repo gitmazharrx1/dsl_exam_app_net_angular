@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YkDwAge+1ME=",
+  "dgSpecHash": "f8JIm8n7AYc=",
   "success": true,
-  "projectFilePath": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Database\\ExamCore.Database.csproj",
+  "projectFilePath": "D:\\final\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Database\\ExamCore.Database.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Enlight Solutions\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Enlight Solutions\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

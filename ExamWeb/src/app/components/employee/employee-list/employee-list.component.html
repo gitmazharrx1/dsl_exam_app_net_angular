@@ -25,7 +25,7 @@
             <td>{{ employee.lastName }}</td>
             <td>{{ employee.email }}</td>
             <td>{{ employee.phone }}</td>
-            <td>{{ employee.country?.name || 'N/A' }}</td>
+            <td>{{ employee.countryName || 'N/A' }}</td>
             <td>
               <button class="btn btn-sm btn-outline-success"
                 routerLink="/employee/update/{{ employee.id }}">Edit</button>

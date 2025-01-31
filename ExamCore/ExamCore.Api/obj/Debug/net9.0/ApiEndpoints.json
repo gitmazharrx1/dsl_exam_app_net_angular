@@ -188,7 +188,7 @@
   },
   {
     "ContainingType": "ExamCore.Api.Controllers.EmployeeController",
-    "Method": "SoftDeleteEMaployee",
+    "Method": "SoftDeleteEmployee",
     "RelativePath": "api/Employee/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,

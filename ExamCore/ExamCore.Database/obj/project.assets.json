@@ -5764,11 +5764,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Database\\ExamCore.Database.csproj",
+      "projectUniqueName": "D:\\final\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Database\\ExamCore.Database.csproj",
       "projectName": "ExamCore.Database",
-      "projectPath": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Database\\ExamCore.Database.csproj",
+      "projectPath": "D:\\final\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Database\\ExamCore.Database.csproj",
       "packagesPath": "C:\\Users\\Enlight Solutions\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Database\\obj\\",
+      "outputPath": "D:\\final\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Database\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5789,8 +5789,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Model\\ExamCore.Model.csproj": {
-              "projectPath": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Model\\ExamCore.Model.csproj"
+            "D:\\final\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Model\\ExamCore.Model.csproj": {
+              "projectPath": "D:\\final\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Model\\ExamCore.Model.csproj"
             }
           }
         }

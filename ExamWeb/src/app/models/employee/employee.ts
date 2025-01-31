@@ -8,7 +8,7 @@ export class Employee {
     phone: string | undefined;
     email: string | undefined;
     countryId?: number;
-    country?: CountryGridModel | undefined;
+    countryName?: string | undefined;
     createdById: string | undefined;
     createdDateTime?: Date;
     updatedById?: string;

@@ -6264,11 +6264,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Api\\ExamCore.Api.csproj",
+      "projectUniqueName": "D:\\final\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Api\\ExamCore.Api.csproj",
       "projectName": "ExamCore.Api",
-      "projectPath": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Api\\ExamCore.Api.csproj",
+      "projectPath": "D:\\final\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Api\\ExamCore.Api.csproj",
       "packagesPath": "C:\\Users\\Enlight Solutions\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Api\\obj\\",
+      "outputPath": "D:\\final\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6289,8 +6289,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Application\\ExamCore.Application.csproj": {
-              "projectPath": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Application\\ExamCore.Application.csproj"
+            "D:\\final\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Application\\ExamCore.Application.csproj": {
+              "projectPath": "D:\\final\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Application\\ExamCore.Application.csproj"
             }
           }
         }

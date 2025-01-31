@@ -5760,11 +5760,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Shared\\ExamCore.Shared.csproj",
+      "projectUniqueName": "D:\\final\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Shared\\ExamCore.Shared.csproj",
       "projectName": "ExamCore.Shared",
-      "projectPath": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Shared\\ExamCore.Shared.csproj",
+      "projectPath": "D:\\final\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Shared\\ExamCore.Shared.csproj",
       "packagesPath": "C:\\Users\\Enlight Solutions\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder (2)\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Shared\\obj\\",
+      "outputPath": "D:\\final\\dsl_exam_app_net_angular\\ExamCore\\ExamCore.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

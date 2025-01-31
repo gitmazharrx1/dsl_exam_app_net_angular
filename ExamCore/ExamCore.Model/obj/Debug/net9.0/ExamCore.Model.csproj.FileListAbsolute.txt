@@ -44,3 +44,19 @@ D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\obj\Debug\net
 D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\obj\Debug\net9.0\refint\ExamCore.Model.dll
 D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\obj\Debug\net9.0\ExamCore.Model.pdb
 D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\obj\Debug\net9.0\ref\ExamCore.Model.dll
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\bin\Debug\net9.0\ExamCore.Model.deps.json
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\bin\Debug\net9.0\ExamCore.Model.dll
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\bin\Debug\net9.0\ExamCore.Model.pdb
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\bin\Debug\net9.0\ExamCore.Shared.dll
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\bin\Debug\net9.0\ExamCore.Shared.pdb
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\obj\Debug\net9.0\ExamCore.Model.csproj.AssemblyReference.cache
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\obj\Debug\net9.0\ExamCore.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\obj\Debug\net9.0\ExamCore.Model.AssemblyInfoInputs.cache
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\obj\Debug\net9.0\ExamCore.Model.AssemblyInfo.cs
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\obj\Debug\net9.0\ExamCore.Model.csproj.CoreCompileInputs.cache
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\obj\Debug\net9.0\ExamCore.Model.sourcelink.json
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\obj\Debug\net9.0\ExamCore.40FA50F5.Up2Date
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\obj\Debug\net9.0\ExamCore.Model.dll
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\obj\Debug\net9.0\refint\ExamCore.Model.dll
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\obj\Debug\net9.0\ExamCore.Model.pdb
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Model\obj\Debug\net9.0\ref\ExamCore.Model.dll

@@ -68,3 +68,27 @@ D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\obj\Deb
 D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\obj\Debug\net9.0\refint\ExamCore.Application.dll
 D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\obj\Debug\net9.0\ExamCore.Application.pdb
 D:\New folder (2)\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\obj\Debug\net9.0\ref\ExamCore.Application.dll
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\bin\Debug\net9.0\ExamCore.Application.deps.json
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\bin\Debug\net9.0\ExamCore.Application.dll
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\bin\Debug\net9.0\ExamCore.Application.pdb
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\bin\Debug\net9.0\ExamCore.Database.dll
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\bin\Debug\net9.0\ExamCore.Manager.dll
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\bin\Debug\net9.0\ExamCore.Model.dll
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\bin\Debug\net9.0\ExamCore.Repository.dll
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\bin\Debug\net9.0\ExamCore.Shared.dll
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\bin\Debug\net9.0\ExamCore.Manager.pdb
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\bin\Debug\net9.0\ExamCore.Database.pdb
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\bin\Debug\net9.0\ExamCore.Model.pdb
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\bin\Debug\net9.0\ExamCore.Repository.pdb
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\bin\Debug\net9.0\ExamCore.Shared.pdb
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\obj\Debug\net9.0\ExamCore.Application.csproj.AssemblyReference.cache
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\obj\Debug\net9.0\ExamCore.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\obj\Debug\net9.0\ExamCore.Application.AssemblyInfoInputs.cache
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\obj\Debug\net9.0\ExamCore.Application.AssemblyInfo.cs
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\obj\Debug\net9.0\ExamCore.Application.csproj.CoreCompileInputs.cache
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\obj\Debug\net9.0\ExamCore.Application.sourcelink.json
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\obj\Debug\net9.0\ExamCore.B38974D0.Up2Date
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\obj\Debug\net9.0\ExamCore.Application.dll
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\obj\Debug\net9.0\refint\ExamCore.Application.dll
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\obj\Debug\net9.0\ExamCore.Application.pdb
+D:\ftest\dsl_exam_app_net_angular\ExamCore\ExamCore.Application\obj\Debug\net9.0\ref\ExamCore.Application.dll

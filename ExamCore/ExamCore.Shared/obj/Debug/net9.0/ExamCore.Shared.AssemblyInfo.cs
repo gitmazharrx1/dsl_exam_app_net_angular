@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExamCore.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56840e823d1127e9fae3c78daffb2a44e125d5fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f2f23aa8eaab6940a455e23c4cf697886e185b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExamCore.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExamCore.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

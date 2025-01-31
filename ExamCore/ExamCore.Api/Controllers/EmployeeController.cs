@@ -1,30 +1,33 @@
 ﻿using AutoMapper;
+using ExamCore.Application.ApplicationLogic.CountryLogic.Command;
+using ExamCore.Application.ApplicationLogic.CountryLogic.Queries;
 using ExamCore.Database.DatabaseContexts;
 using ExamCore.Manager.Contracts;
 using ExamCore.Model.Dto;
 using ExamCore.Model.Models;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ExamCore.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EmployeeController : Controller
+    public class EmployeeController : ControllerBase
     {
-        private readonly IEmployeeManager _employeeManager;
-        private readonly ICountryManager _countryManager;
-        private readonly IMapper _mapper;
-        public EmployeeController(IMapper mapper, IEmployeeManager employeeManager, ICountryManager countryManager)
+        private readonly IMediator _mediator;
+
+        public EmployeeController(IMediator mediator)
         {
-            _mapper = mapper;
-            _employeeManager = employeeManager;
-            _countryManager = countryManager;
+            _mediator = mediator;
         }
+
         [HttpGet]
         public async Task<IActionResult> GetAllEmployee()
         {
-            var employees = await _employeeManager.GetAllEmloyeeAsync();
-            if (employees == null) { 
+            var query = new GetAllEmployeesQuery();
+            var employees = await _mediator.Send(query);
+            if (employees == null || !employees.Any())
+            {
                 return NotFound(new { Message = "No Employee found." });
             }
             return Ok(employees);
@@ -33,7 +36,8 @@ namespace ExamCore.Api.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetEmployeeById(int id)
         {
-            var employee = await _employeeManager.GetEmloyeeById(id);
+            var query = new GetEmployeeByIdQuery { Id = id };
+            var employee = await _mediator.Send(query);
             if (employee == null)
                 return NotFound(new { Message = "Employee not found." });
 
@@ -47,15 +51,8 @@ namespace ExamCore.Api.Controllers
             {
                 if (!ModelState.IsValid) return BadRequest(ModelState);
 
-                var existCountry = await _countryManager.GetByIdAsync(employeeDto.CountryId);
-                if (existCountry == null)
-                    return BadRequest(new { Message = "Country not found." });
-
-                var employee = _mapper.Map<Employee>(employeeDto);
-                employee.CreatedDateTime = DateTime.UtcNow;
-                employee.CreatedById = "System";
-
-                await _employeeManager.CreateAsync(employee);
+                var command = new AddEmployeeCommand { EmployeeDto = employeeDto };
+                var employee = await _mediator.Send(command);
 
                 return Ok(new { Message = "Employee added successfully.", Employee = employee });
             }
@@ -72,21 +69,10 @@ namespace ExamCore.Api.Controllers
             {
                 if (!ModelState.IsValid) return BadRequest(ModelState);
 
-                var existingEmployee = await _employeeManager.GetByIdAsync(id);
-                if (existingEmployee == null)
-                    return NotFound(new { Message = "Employee not found." });
+                var command = new UpdateEmployeeCommand { Id = id, EmployeeDto = employeeDto };
+                var updatedEmployee = await _mediator.Send(command);
 
-                var existCountry = await _countryManager.GetByIdAsync(employeeDto.CountryId);
-                if (existCountry == null)
-                    return BadRequest(new { Message = "Country not found." });
-
-                _mapper.Map(employeeDto, existingEmployee);
-                existingEmployee.UpdatedDateTime = DateTime.UtcNow;
-                existingEmployee.UpdatedById = "System";
-
-                await _employeeManager.UpdateAsync(existingEmployee);
-
-                return Ok(new { Message = "Employee updated successfully.", Employee = existingEmployee });
+                return Ok(new { Message = "Employee updated successfully.", Employee = updatedEmployee });
             }
             catch (Exception ex)
             {
@@ -95,18 +81,15 @@ namespace ExamCore.Api.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> SoftDeleteEMaployee(int id)
+        public async Task<IActionResult> SoftDeleteEmployee(int id)
         {
             try
             {
-                var existingEmployee = await _employeeManager.GetEmloyeeById(id);
-                if (existingEmployee == null)
+                var command = new SoftDeleteEmployeeCommand { Id = id };
+                var success = await _mediator.Send(command);
+
+                if (!success)
                     return NotFound(new { Message = "Employee not found." });
-
-                existingEmployee.IsDeleted = true;
-                existingEmployee.DeletedDateTime = DateTime.UtcNow;
-
-                await _employeeManager.UpdateAsync(existingEmployee);
 
                 return Ok(new { Message = "Employee deleted successfully." });
             }
@@ -116,4 +99,5 @@ namespace ExamCore.Api.Controllers
             }
         }
     }
+
 }

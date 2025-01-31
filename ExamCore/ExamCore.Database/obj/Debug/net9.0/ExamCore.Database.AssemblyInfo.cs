@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExamCore.Database")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd99f7c4376776bdd3440a772121e982a80ae963")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f2f23aa8eaab6940a455e23c4cf697886e185b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExamCore.Database")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExamCore.Database")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
